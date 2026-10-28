@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10264a">
+  <meta name="description" content="Hans Service melayani servis HP, laptop, komputer, printer, TV, speaker, baterai HP, charger dan adaptor di Tanah Sareal, Bogor.">
+  <title>Hans Service | Solusi Servis Elektronik</title>
+  <style>
+    :root{--navy:#10264a;--navy2:#173b6d;--orange:#ff8a24;--orange2:#ffab55;--ink:#17243a;--muted:#65748a;--paper:#f5f8fc;--white:#fff;--line:#e1e8f1;--radius:20px;--shadow:0 14px 40px rgba(16,38,74,.09)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.6}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.container{width:min(1120px,calc(100% - 40px));margin:auto}
+    .topbar{background:var(--navy);color:#dbe7fa;font-size:.86rem;padding:8px 0}.topbar .container{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(225,232,241,.85)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:850;color:var(--navy);font-size:1.18rem;letter-spacing:-.03em}.brand-mark{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--orange);color:var(--navy);font-size:1.45rem;box-shadow:0 7px 16px #ff8a243b}.brand small{display:block;font-size:.68rem;letter-spacing:.12em;color:var(--muted);font-weight:700}.navlinks{display:flex;align-items:center;gap:25px;font-size:.93rem;font-weight:650}.navlinks a:hover{color:#e87814}.menu-btn{display:none;border:1px solid var(--line);background:#fff;border-radius:12px;padding:8px 12px;color:var(--navy)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 20px;border:0;border-radius:13px;background:var(--orange);color:var(--navy);font-weight:800;cursor:pointer;transition:transform .18s,box-shadow .18s}.btn:hover{transform:translateY(-2px);box-shadow:0 9px 22px #ff8a243b}.btn.dark{background:var(--navy);color:#fff}.btn.outline{background:#fff;border:1px solid var(--line);color:var(--navy)}.btn.small{padding:10px 14px;font-size:.9rem}
+    .hero{background:radial-gradient(ellipse at 85% 25%,#244c7e 0,transparent 35%),linear-gradient(120deg,#0d2040,#173b6d);color:#fff;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:390px;height:390px;border:1px solid #ffffff18;border-radius:50%;right:-100px;bottom:-220px;box-shadow:0 0 0 40px #ffffff08,0 0 0 80px #ffffff05}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center;padding:76px 0 82px;position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:#ffbd7e;font-weight:800;font-size:.82rem;letter-spacing:.11em;text-transform:uppercase}.eyebrow:before{content:"";width:24px;height:2px;background:var(--orange)}h1{font-size:clamp(2.5rem,5.4vw,4.5rem);line-height:1.08;letter-spacing:-.055em;margin:18px 0}.hero h1 span{color:var(--orange2)}.hero p{font-size:1.08rem;color:#d8e4f4;max-width:580px;margin:0 0 28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.hero .outline{background:#ffffff10;border-color:#ffffff45;color:#fff}.hero-points{display:flex;gap:20px;flex-wrap:wrap;margin-top:27px;color:#d7e3f3;font-size:.9rem}.hero-points span{display:flex;gap:7px;align-items:center}.hero-visual{min-height:330px;display:grid;place-items:center;position:relative}.device-card{width:min(100%,360px);padding:28px;border-radius:28px;background:linear-gradient(145deg,#ffffff20,#ffffff08);border:1px solid #ffffff35;box-shadow:0 30px 80px #07152c66;transform:rotate(2deg)}.device-icon{font-size:5.2rem;text-align:center;margin:8px 0 16px;filter:drop-shadow(0 12px 15px #07152c66)}.device-card h3{text-align:center;margin:0;font-size:1.35rem}.device-card p{text-align:center;margin:6px 0 0;font-size:.9rem}.floating-chip{position:absolute;background:#fff;color:var(--navy);padding:12px 16px;border-radius:14px;box-shadow:var(--shadow);font-weight:800;font-size:.9rem}.floating-chip.one{top:30px;left:-4px}.floating-chip.two{right:-3px;bottom:35px}.floating-chip span{color:#e87814}
+    .trust-strip{border-bottom:1px solid var(--line);background:#fff}.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:22px 0}.trust-item{display:flex;align-items:center;justify-content:center;gap:12px;color:var(--navy);font-weight:750}.trust-item b{display:grid;place-items:center;width:42px;height:42px;background:#fff2e5;border-radius:13px;font-size:1.2rem}
+    section{padding:76px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 36px}.kicker{font-size:.8rem;font-weight:850;letter-spacing:.12em;text-transform:uppercase;color:#e87814}.section-head h2{font-size:clamp(1.9rem,3.8vw,2.8rem);line-height:1.15;letter-spacing:-.04em;color:var(--navy);margin:10px 0 12px}.section-head p{color:var(--muted);margin:0}.services{background:var(--paper)}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.service-card{padding:23px 20px;background:#fff;border:1px solid var(--line);border-radius:18px;transition:transform .2s,box-shadow .2s}.service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.service-icon{display:grid;place-items:center;width:54px;height:54px;background:#fff2e5;border-radius:16px;font-size:1.75rem;margin-bottom:18px}.service-card h3{font-size:1.05rem;line-height:1.3;margin:0 0 7px;color:var(--navy)}.service-card p{color:var(--muted);font-size:.9rem;margin:0 0 16px}.price{font-weight:850;color:#e87814;font-size:1.08rem}.price small{font-weight:600;color:var(--muted);font-size:.75rem}.edit-note{text-align:center;font-size:.85rem;color:var(--muted);margin:20px 0 0}
+    .booking-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:36px;align-items:start}.booking-info{background:var(--navy);color:#fff;padding:30px;border-radius:var(--radius);position:sticky;top:100px}.booking-info h3{font-size:1.65rem;line-height:1.2;margin:12px 0}.booking-info>p{color:#d4e0f0}.info-list{list-style:none;margin:25px 0 0;padding:0;display:grid;gap:19px}.info-list li{display:flex;gap:12px;align-items:flex-start;color:#e0e9f6}.info-list b{display:block;color:#fff}.info-icon{font-size:1.2rem}.form-card{padding:30px;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}.form-card h3{margin:0 0 5px;color:var(--navy);font-size:1.45rem}.form-card .sub{margin:0 0 24px;color:var(--muted);font-size:.92rem}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:.9rem;font-weight:750;color:var(--navy)}.field input,.field select,.field textarea{width:100%;border:1px solid #d6e0ec;border-radius:11px;padding:12px 13px;color:var(--ink);background:#fff;outline:none;transition:border .2s,box-shadow .2s}.field textarea{resize:vertical;min-height:120px}.field input:focus,.field select:focus,.field textarea:focus{border-color:#f39a49;box-shadow:0 0 0 3px #ff8a241c}.field small{font-size:.78rem;color:var(--muted)}.estimate{background:#fff8f0;border:1px solid #ffe0c2;padding:13px 15px;border-radius:12px;color:#74441b;font-size:.9rem}.estimate strong{display:block;color:#b65b0a}.form-submit{width:100%;margin-top:19px}.privacy-note{font-size:.78rem;color:var(--muted);text-align:center;margin:12px 0 0}
+    .steps{background:var(--paper)}.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:25px}.step-number{width:42px;height:42px;display:grid;place-items:center;background:var(--orange);color:var(--navy);border-radius:13px;font-weight:900}.step h3{margin:15px 0 6px;color:var(--navy)}.step p{margin:0;color:var(--muted);font-size:.94rem}
+    .contact-band{padding:0 0 76px;background:var(--paper)}.contact-box{background:linear-gradient(120deg,#173b6d,#10264a);color:#fff;border-radius:24px;padding:36px;display:flex;align-items:center;justify-content:space-between;gap:25px}.contact-box h2{margin:0 0 7px;font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.2}.contact-box p{margin:0;color:#d7e3f3}.contact-box .btn{flex-shrink:0}
+    footer{background:#0b1931;color:#d5dfed;padding:36px 0 20px}.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}.footer-brand{color:#fff;font-size:1.2rem;font-weight:850}.footer-grid p,.footer-grid li{color:#aebdd2;font-size:.9rem}.footer-grid h4{color:#fff;margin:0 0 12px}.footer-grid ul{list-style:none;padding:0;margin:0;display:grid;gap:7px}.copyright{border-top:1px solid #ffffff18;margin-top:28px;padding-top:17px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#8fa2bc;font-size:.82rem}
+    .wa-float{position:fixed;right:20px;bottom:20px;z-index:30;display:flex;align-items:center;gap:9px;background:#20b968;color:#fff;padding:13px 17px;border-radius:999px;font-weight:850;box-shadow:0 9px 30px #092b1b45}.wa-float:hover{background:#159c54}
+    @media(max-width:900px){.hero-grid{gap:20px}.service-grid{grid-template-columns:repeat(2,1fr)}.booking-grid{grid-template-columns:1fr}.booking-info{position:static}.navlinks{gap:14px}.hero-visual{min-height:280px}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}}
+    @media(max-width:680px){.container{width:min(100% - 30px,1120px)}.topbar .container{justify-content:center;text-align:center}.nav{height:68px}.menu-btn{display:block}.navlinks{display:none;position:absolute;top:68px;left:0;right:0;padding:18px 20px 22px;background:#fff;border-bottom:1px solid var(--line);box-shadow:var(--shadow);flex-direction:column;align-items:stretch}.navlinks.open{display:flex}.navlinks .btn{width:100%}.nav .nav-cta{display:none}.hero-grid{grid-template-columns:1fr;padding:56px 0 45px}.hero h1{font-size:clamp(2.5rem,12vw,3.6rem)}.hero-visual{min-height:270px;margin-top:5px}.device-card{max-width:300px;padding:22px}.device-icon{font-size:4.2rem}.floating-chip.one{left:0;top:15px}.floating-chip.two{right:0;bottom:20px}.trust-grid{grid-template-columns:1fr;gap:12px;padding:19px 0}.trust-item{justify-content:flex-start}.trust-item b{width:36px;height:36px}section{padding:58px 0}.service-grid{gap:12px}.service-card{padding:18px 15px}.service-icon{width:47px;height:47px;font-size:1.5rem;margin-bottom:13px}.service-card h3{font-size:.98rem}.price{font-size:1rem}.booking-info,.form-card{padding:23px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.steps-grid{grid-template-columns:1fr}.contact-box{padding:27px;align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}.wa-float{right:13px;bottom:13px;padding:12px 15px}.wa-float .wa-label{display:none}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>📍 Tanah Sareal, Bogor</span><span>🕒 Buka setiap hari · 08.00–20.00 WIB</span></div></div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#beranda" aria-label="Hans Service beranda"><span class="brand-mark">🔧</span><span>HANS SERVICE<small>SOLUSI SERVIS ELEKTRONIK</small></span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <nav class="navlinks" id="navLinks" aria-label="Navigasi utama">
+        <a href="#beranda">Beranda</a><a href="#layanan">Layanan</a><a href="#pemesanan">Konsultasi</a><a href="#kontak">Kontak</a>
+      </nav>
+      <a class="btn small nav-cta" href="#pemesanan">Konsultasi Gratis ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Partner servis elektronik Anda</span>
+          <h1>Elektronik bermasalah? <span>Serahkan pada ahlinya.</span></h1>
+          <p>Hans Service membantu menangani berbagai masalah perangkat elektronik Anda. Konsultasikan keluhannya terlebih dahulu untuk mendapatkan pemeriksaan dan estimasi biaya.</p>
+          <div class="hero-actions"><a class="btn" href="#pemesanan">🛠️ Konsultasi Sekarang</a><a class="btn outline" href="#layanan">Lihat Layanan ↓</a></div>
+          <div class="hero-points"><span>✓ Estimasi biaya transparan</span><span>✓ Konsultasi mudah via WhatsApp</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Ilustrasi layanan servis elektronik">
+          <div class="floating-chip one">🧰 <span>Solusi praktis</span></div>
+          <div class="device-card"><div class="device-icon">💻📱</div><h3>Perangkat kembali optimal</h3><p>HP · Laptop · Komputer · Elektronik</p></div>
+          <div class="floating-chip two">⚡ Respons cepat</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-strip"><div class="container trust-grid">
+      <div class="trust-item"><b>🧑‍🔧</b><span>Layanan berbagai perangkat</span></div>
+      <div class="trust-item"><b>💬</b><span>Konsultasi langsung via WhatsApp</span></div>
+      <div class="trust-item"><b>🧾</b><span>Harga awal, konfirmasi sebelum servis</span></div>
+    </div></div>
+
+    <section class="services" id="layanan">
+      <div class="container">
+        <div class="section-head"><span class="kicker">Layanan kami</span><h2>Solusi untuk perangkat Anda</h2><p>Pilih layanan yang sesuai. Harga di bawah adalah estimasi awal dan dapat berubah sesuai tingkat kerusakan serta kebutuhan suku cadang.</p></div>
+        <div class="service-grid" id="serviceGrid"></div>
+        <p class="edit-note">* Estimasi bukan harga final. Biaya akan dikonfirmasi setelah pemeriksaan dan persetujuan pelanggan.</p>
+      </div>
+    </section>
+
+    <section id="pemesanan">
+      <div class="container">
+        <div class="section-head"><span class="kicker">Mulai konsultasi</span><h2>Ceritakan masalah perangkat Anda</h2><p>Isi formulir berikut. Rincian perangkat dan keluhan akan disiapkan dalam pesan WhatsApp untuk Hans Service.</p></div>
+        <div class="booking-grid">
+          <aside class="booking-info">
+            <span class="eyebrow">Hans Service</span><h3>Kami siap membantu.</h3><p>Sampaikan detail perangkat dan masalahnya agar kami dapat membantu langkah berikutnya.</p>
+            <ul class="info-list">
+              <li><span class="info-icon">📍</span><span><b>Alamat</b>Jl. Kencana 1 Rt.05/02, Tanah Sareal Bogor.</span></li>
+              <li><span class="info-icon">🕒</span><span><b>Jam operasional</b>08.00–20.00 WIB</span></li>
+              <li><span class="info-icon">📱</span><span><b>WhatsApp</b>0857-7555-1150</span></li>
+              <li><span class="info-icon">💡</span><span><b>Catatan biaya</b>Harga final ditentukan setelah pemeriksaan dan persetujuan Anda.</span></li>
+            </ul>
+          </aside>
+          <div class="form-card">
+            <h3>Formulir konsultasi servis</h3><p class="sub">Kolom bertanda * wajib diisi.</p>
+            <form id="serviceForm">
+              <div class="form-grid">
+                <div class="field"><label for="customerName">Nama pelanggan *</label><input id="customerName" name="customerName" autocomplete="name" placeholder="Nama Anda" required maxlength="80"></div>
+                <div class="field"><label for="customerPhone">Nomor HP pelanggan *</label><input id="customerPhone" name="customerPhone" type="tel" autocomplete="tel" placeholder="Contoh: 081234567890" required maxlength="20"></div>
+                <div class="field"><label for="deviceType">Jenis perangkat *</label><select id="deviceType" name="deviceType" required><option value="">Pilih jenis perangkat</option></select></div>
+                <div class="field"><label for="brandModel">Merek dan model perangkat *</label><input id="brandModel" name="brandModel" placeholder="Contoh: Samsung A15 / ASUS X441" required maxlength="120"></div>
+                <div class="field full"><label for="damage">Penjelasan kerusakan *</label><textarea id="damage" name="damage" placeholder="Ceritakan gejala kerusakan, kapan mulai terjadi, dan hal lain yang perlu kami ketahui..." required maxlength="1500"></textarea><small id="charCount">0/1500 karakter</small></div>
+                <div class="field full"><label for="serviceChoice">Layanan yang dibutuhkan</label><select id="serviceChoice" name="serviceChoice"><option value="">Pilih jika sudah tahu (opsional)</option></select></div>
+                <div class="field full"><div class="estimate"><strong>Estimasi awal: <span id="estimatePrice">Belum dipilih</span></strong><span>Nilai ini hanya panduan, bukan tagihan final. Biaya aktual bergantung pada hasil pemeriksaan dan suku cadang.</span></div></div>
+              </div>
+              <button class="btn form-submit" type="submit">💬 Kirim Detail ke WhatsApp</button>
+              <p class="privacy-note">Tombol akan membuka WhatsApp dengan pesan yang sudah disiapkan untuk Anda periksa dan kirim.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="container"><div class="section-head"><span class="kicker">Mudah dan jelas</span><h2>Bagaimana prosesnya?</h2><p>Mulai dari konsultasi, pemeriksaan, hingga persetujuan biaya.</p></div>
+        <div class="steps-grid">
+          <article class="step"><div class="step-number">01</div><h3>Kirim keluhan</h3><p>Isi formulir dengan data kontak, jenis perangkat, merek/model, dan gejala kerusakan.</p></article>
+          <article class="step"><div class="step-number">02</div><h3>Konsultasi & pemeriksaan</h3><p>Diskusikan gejala perangkat dan pemeriksaan yang diperlukan bersama Hans Service.</p></article>
+          <article class="step"><div class="step-number">03</div><h3>Setujui estimasi biaya</h3><p>Biaya final dikonfirmasi terlebih dahulu. Perbaikan dilakukan setelah ada persetujuan Anda.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <div class="contact-band" id="kontak"><div class="container"><div class="contact-box"><div><h2>Perangkat Anda perlu diperiksa?</h2><p>Hubungi Hans Service untuk mulai konsultasi melalui WhatsApp.</p></div><a class="btn" id="contactWa" href="https://wa.me/6285775551150" target="_blank" rel="noopener noreferrer">Chat WhatsApp ↗</a></div></div></div>
+  </main>
+
+  <footer><div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-brand">🔧 HANS SERVICE</div><p>Solusi servis HP dan berbagai perangkat elektronik di Tanah Sareal, Bogor. Konsultasi dahulu, estimasi biaya dikonfirmasi sebelum pengerjaan.</p></div>
+      <div><h4>Menu</h4><ul><li><a href="#beranda">Beranda</a></li><li><a href="#layanan">Daftar layanan</a></li><li><a href="#pemesanan">Form konsultasi</a></li></ul></div>
+      <div><h4>Hubungi kami</h4><ul><li>📍 Jl. Kencana 1 Rt.05/02, Tanah Sareal Bogor.</li><li>📱 0857-7555-1150</li><li>🕒 08.00–20.00 WIB</li></ul></div>
+    </div>
+    <div class="copyright"><span>© <span id="year"></span> Hans Service. Hak cipta dilindungi.</span><span>Servis terpercaya dimulai dari konsultasi yang jelas.</span></div>
+  </div></footer>
+
+  <a class="wa-float" href="https://wa.me/6285775551150" target="_blank" rel="noopener noreferrer" aria-label="Chat Hans Service di WhatsApp">☏ <span class="wa-label">Chat WhatsApp</span></a>
+  <script>
+    // Harga estimasi dapat diubah di bagian ini; harga tidak pernah ditagihkan otomatis.
+    const WHATSAPP_NUMBER = "6285775551150";
+    const services = [
+      {name:"Servis HP",price:50000,icon:"📱",desc:"Pemeriksaan dan perbaikan ponsel."},
+      {name:"Servis Laptop",price:100000,icon:"💻",desc:"Bantuan untuk berbagai masalah laptop."},
+      {name:"Servis Komputer",price:100000,icon:"🖥️",desc:"Pemeriksaan PC dan perangkat pendukung."},
+      {name:"Servis Printer",price:75000,icon:"🖨️",desc:"Penanganan masalah printer."},
+      {name:"Servis TV",price:100000,icon:"📺",desc:"Pemeriksaan gangguan pada televisi."},
+      {name:"Servis Speaker",price:50000,icon:"🔊",desc:"Pemeriksaan speaker dan audio."},
+      {name:"Penggantian Baterai HP",price:100000,icon:"🔋",desc:"Penggantian baterai sesuai model perangkat."},
+      {name:"Perbaikan Charger atau Adaptor",price:35000,icon:"🔌",desc:"Pemeriksaan charger dan adaptor daya."}
+    ];
+    const rupiah = value => "Rp" + new Intl.NumberFormat("id-ID").format(value);
+    const grid = document.getElementById("serviceGrid");
+    const deviceType = document.getElementById("deviceType");
+    const serviceChoice = document.getElementById("serviceChoice");
+    services.forEach((service,index) => {
+      const article = document.createElement("article");
+      article.className = "service-card";
+      article.innerHTML = `<div class="service-icon" aria-hidden="true">${service.icon}</div><h3>${service.name}</h3><p>${service.desc}</p><div class="price"><small>Mulai dari</small><br>${rupiah(service.price)}</div><button class="btn outline small choose-service" type="button" style="margin-top:15px;width:100%">Pilih layanan</button>`;
+      article.querySelector("button").addEventListener("click", () => {
+        serviceChoice.value = String(index);
+        if (service.name.includes("HP") || service.name === "Servis HP") deviceType.value = "HP";
+        else if (service.name.includes("Laptop")) deviceType.value = "Laptop";
+        else if (service.name.includes("Komputer")) deviceType.value = "Komputer";
+        else if (service.name.includes("Printer")) deviceType.value = "Printer";
+        else if (service.name.includes("TV")) deviceType.value = "TV";
+        else if (service.name.includes("Speaker")) deviceType.value = "Speaker";
+        else if (service.name.includes("Charger") || service.name.includes("Adaptor")) deviceType.value = "Charger atau adaptor";
+        updateEstimate();
+        document.getElementById("pemesanan").scrollIntoView({behavior:"smooth"});
+      });
+      grid.appendChild(article);
+      const option = document.createElement("option");
+      option.value = String(index); option.textContent = service.name;
+      serviceChoice.appendChild(option);
+    });
+    ["HP","Laptop","Komputer","Printer","TV","Speaker","Charger atau adaptor","Perangkat elektronik lainnya"].forEach(type => {
+      const option = document.createElement("option"); option.value = type; option.textContent = type; deviceType.appendChild(option);
+    });
+    function updateEstimate(){
+      const service = services[Number(serviceChoice.value)];
+      document.getElementById("estimatePrice").textContent = service ? "Mulai " + rupiah(service.price) : "Belum dipilih";
+    }
+    serviceChoice.addEventListener("change", updateEstimate);
+    document.getElementById("damage").addEventListener("input", event => {
+      document.getElementById("charCount").textContent = `${event.target.value.length}/1500 karakter`;
+    });
+    document.getElementById("serviceForm").addEventListener("submit", event => {
+      event.preventDefault();
+      const name = document.getElementById("customerName").value.trim();
+      const phone = document.getElementById("customerPhone").value.trim();
+      const type = deviceType.value;
+      const model = document.getElementById("brandModel").value.trim();
+      const damage = document.getElementById("damage").value.trim();
+      const selectedService = services[Number(serviceChoice.value)];
+      const message = [
+        "Halo Hans Service, saya ingin konsultasi servis elektronik.",
+        "",
+        `Nama pelanggan: ${name}`,
+        `Nomor HP pelanggan: ${phone}`,
+        `Jenis perangkat: ${type}`,
+        `Merek/model: ${model}`,
+        `Keluhan/kerusakan: ${damage}`,
+        `Layanan yang dipilih: ${selectedService ? selectedService.name : "Belum ditentukan"}`,
+        `Estimasi awal: ${selectedService ? "Mulai " + rupiah(selectedService.price) : "Belum ditentukan"}`,
+        "",
+        "Saya memahami harga tersebut hanya estimasi awal. Mohon konfirmasi biaya setelah pemeriksaan sebelum perbaikan dilakukan."
+      ].join("\n");
+      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+      window.open(url, "_blank", "noopener,noreferrer");
+    });
+    const menuBtn = document.getElementById("menuBtn");
+    const navLinks = document.getElementById("navLinks");
+    menuBtn.addEventListener("click", () => {
+      const open = navLinks.classList.toggle("open");
+      menuBtn.setAttribute("aria-expanded", String(open));
+      menuBtn.textContent = open ? "✕" : "☰";
+    });
+    navLinks.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+      navLinks.classList.remove("open"); menuBtn.setAttribute("aria-expanded","false"); menuBtn.textContent = "☰";
+    }));
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
